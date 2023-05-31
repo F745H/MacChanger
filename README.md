@@ -18,10 +18,13 @@ To change it's original address execute like this:
 sudo ./MacChanger.sh -O eth0
 ```
 
-![image](https://github.com/F745H/MacChanger/assets/102409904/447491b7-60e5-4a4f-90f5-06b2ef790b0d)
+</br>
+
+![image](https://github.com/F745H/MacChanger/assets/102409904/fc7b684c-fe90-4da7-94c5-6a2010bdb02f)
+
 
 **Note:**
-After restarting the device MAC address changes to it's original address.
+After restarting the device MAC address will change to it's original address.
 
 # Requirement
 To run this script you should have installed macchanger.
