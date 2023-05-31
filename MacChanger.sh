@@ -7,10 +7,11 @@ if [ -z "$1" ]
 then
 echo ""
 echo "Run file like this"
-echo "sudo ./MacChanger.sh [interface (eth0, wlan0)] [MAC Address]"
 echo "Ex. sudo ./MacChanger.sh eth0 44:ee:bc:6c:76:ba"
 echo "If you don't have MAC address to change you can just give interface"
 echo "Ex. sudo ./MacChanger.sh eth0"
+echo "You can revert the changes using -O flag"
+echo "Ex. sudo ./MacChanger -O eth0"
 echo ""
 ifconfig
 echo ""
